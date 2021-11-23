@@ -5,6 +5,7 @@ const Page1 = () => {
  return(
 
      <div id="question-1">
+     <h1>Ola</h1>
                        <h2>Questão 1</h2>
                          <h3>Liderança:
                    "Para mim, liderança é um dom e existem pessoas que já nascem propensas a liderar."
