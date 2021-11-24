@@ -5,10 +5,10 @@ const Page1 = () => {
  return(
 
      <div id="question-1">
-     
+      
                        <h2>Questão 1</h2>
                          <h3>Liderança:
-                   "Para mim, liderança é um dom e existem pessoas que já nascem propensas a liderar."
+                   "Para mim, liderança é um dom e existem pessoas que já nascem propensas a liderar. "
                  </h3>
                          <input id="question-1-answer-a" type="radio" name="favelang" value={1}/> Concordo totalmente<br/> 
                          <input id="question-1-answer-b" type="radio" name="favelang" value={2}/> Concordo parcialmente<br/>
