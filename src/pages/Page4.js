@@ -1,18 +1,29 @@
-
- import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
  //import  page2 from './page2'
+ import {useStoreActions, useStoreState } from 'easy-peasy';
+ import React, {useState} from 'react'
 const Page4 = () => {
+
+    const FormStore = useStoreState(state => state.pagina4);
+
+    const SetFormStore = useStoreActions(state => state.setForm);
+    const [pag4, setPag4] = useState(FormStore)
+  
+    function salvarRadio(){
+      FormStore.pagina4  = pag4;
+      SetFormStore(FormStore);
+    } 
  return(
     <div id="question-4">
     <h2>Questão 4</h2>
     <h3>A equipe precisa se adaptar ao estilo de liderança do líder</h3>
-            <input id="question-3-answer-a" type="radio" name="favelang" value={1}/> Concordo totalmente<br/>
-        <input id="question-4-answer-b" type="radio" name="favelang" value={2}/> Concordo parcialmente<br/>
-        <input id="question-4-answer-c" type="radio" name="favelang" value={3}/> Discordo parcialmente<br/>
-        <input id="question-4-answer-d" type="radio" name="favelang" value={4}/> Discordo totalmente<br/>
-        <div id="submit4" class="button"> <div id="submit1" class="button"><Link style={{ textDecoration : 'none', color : 'black'  }} to ={'/Page5'} >Próximo</Link></div></div>
-        <div class="clearfix"></div>
-        </div>
+    <input id="question-2-answer-a" type="radio" name="favelang" checked={pag4 === 1}  onChange={()=>setPag4(1)}/> Concordo totalmente<br/>
+    <input id="question-2-answer-b" type="radio" name="favelang" checked={pag4 === 0.75}  onChange={()=>setPag4(0.75)}/> Concordo parcialmente<br/>
+    <input id="question-2-answer-c" type="radio" name="favelang" checked={pag4 === 0.25}  onChange={()=>setPag4(0.25)}/> Discordo parcialmente<br/>
+    <input id="question-2-answer-d" type="radio" name="favelang" checked={pag4 === 0}  onChange={()=>setPag4(0)}/> Discordo totalmente<br/>
+    <div id="submit2" class="button"> <div id="submit1" class="button"><Link style={{ textDecoration : 'none', color : 'black'  }} onClick={salvarRadio} to ={'/Page5'} >Próximo</Link></div></div>
+    <div class="clearfix"></div>
+    </div>
 
  )
 }
