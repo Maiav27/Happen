@@ -1,7 +1,7 @@
 import {action} from 'easy-peasy';
 
 export const form ={
-
+   nome : '',
    pagina1: '',
    pagina2: '',
    pagina3: '',
@@ -32,6 +32,12 @@ export const form ={
    pagina28: '',
    pagina29: '',
    pagina30: '',
+   LID : [] ,
+    PD : [],
+    IE : [],
+    TD : [],
+    CM : [],
+    CA : [],
 
    
    setForm: action((state,payload)=>{state = payload}),

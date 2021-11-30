@@ -11,12 +11,13 @@ import React, {useState} from 'react'
 const Page2 = () => {
 
 
- const FormStore = useStoreState(state => state.pagina2);
+ const FormStore = useStoreState(state => state);
 
  const SetFormStore = useStoreActions(state => state.setForm);
- const [pag2, setPag2] = useState(FormStore)
-
+ const [pag2, setPag2] = useState(FormStore.LID[1] ? FormStore.LID[0] : '')
+  console.log(FormStore)
  function salvarRadio(){
+   FormStore.LID[1] = pag2
    FormStore.pagina2  = pag2;
    SetFormStore(FormStore);
  } 

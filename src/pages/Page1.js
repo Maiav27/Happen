@@ -5,25 +5,29 @@ import React, {useState} from 'react'
 
 const Page1 = () => {
 
- const FormStore = useStoreState(state => state.pagina1);
+ const FormStore = useStoreState(state => state);
 
  const SetFormStore = useStoreActions(state => state.setForm);
- const [pag1, setPag1] = useState(FormStore)
+ const [pag1, setPag1] = useState(FormStore.LID[0] ? FormStore.LID[0] : '')
 
+  
  function salvarRadio(){
+  FormStore.LID[0] = pag1
+    
    FormStore.pagina1  = pag1;
    SetFormStore(FormStore);
  } 
+ console.log(FormStore)
+ console.log(FormStore.LID)
+
 
 return(
 
     <div id="question-1">
                      
-                      <h2>Questão 1</h2>
+                      <h2>Liderança</h2>
 
-                        <h3>Liderança:
-                  "Para mim, liderança é um dom e existem pessoas que já nascem propensas a liderar."
-                </h3>
+                        <h3> "Para mim, liderança é um dom e existem pessoas que já nascem propensas a liderar." </h3>
                         <input id="question-1-answer-a" type="radio" name="favelang" checked={pag1 === 1}  onChange={()=>setPag1(1)}/> Concordo totalmente<br/> 
                         <input id="question-1-answer-b" type="radio" name="favelang" checked={pag1 === 0.75} onChange={()=>setPag1(0.75)}/> Concordo parcialmente<br/>
                         <input id="question-1-answer-c" type="radio" name="favelang" checked={pag1 === 0.25} onChange={()=>setPag1(0.25)}/> Discordo parcialmente<br/>
