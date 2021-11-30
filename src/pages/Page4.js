@@ -11,7 +11,7 @@ const Page4 = () => {
   
     function salvarRadio(){
       FormStore.LID[3] = pag4
-      FormStore.pagina4  = pag4;
+
       SetFormStore(FormStore);
     } 
     console.log(FormStore)

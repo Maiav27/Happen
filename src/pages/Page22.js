@@ -4,13 +4,13 @@ import {useStoreActions, useStoreState } from 'easy-peasy';
 import React, {useState} from 'react'
 
 const Page22 = () => {
-    const FormStore = useStoreState(state => state.pagina22);
+    const FormStore = useStoreState(state => state);
 
     const SetFormStore = useStoreActions(state => state.setForm);
-    const [pag22, setPag22] = useState(FormStore)
+    const [pag22, setPag22] = useState(FormStore.CM[1] ? FormStore.CM[1] : '')
   
     function salvarRadio(){
-      FormStore.pagina22  = pag22;
+      FormStore.CM[1]  = pag22;
       SetFormStore(FormStore);
     } 
  return(

@@ -5,13 +5,15 @@ import boneco from '../boneco.jpeg'
 
 const Home = () => {
     const FormStore = useStoreState(state => state);
-    const setFormStore = useStoreActions(state => state.setFormStore);
+    const setFormStore = useStoreActions(state => state.setForm);
     const [nome, setNome] = useState (FormStore.nome ? FormStore.nome : '')
 
     const salvar = () => {
         FormStore.nome = nome
         setFormStore(FormStore);
     }
+
+    console.log(nome)
 
     return(
 

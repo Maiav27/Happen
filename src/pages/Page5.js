@@ -4,13 +4,13 @@ import {Link} from 'react-router-dom'
  import React, {useState} from 'react'
  
 const Page5 = () => {
-    const FormStore = useStoreState(state => state.pagina5);
+    const FormStore = useStoreState(state => state);
 
     const SetFormStore = useStoreActions(state => state.setForm);
-    const [pag5, setPag5] = useState(FormStore)
+    const [pag5, setPag5] = useState(FormStore.LID[4] ? FormStore.LID[4] : '')
   
     function salvarRadio(){
-      FormStore.pagina5  = pag5;
+      FormStore.LID[4] = pag5;
       SetFormStore(FormStore);
     } 
  return(

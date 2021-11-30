@@ -3,11 +3,14 @@ import {Link} from 'react-router-dom'
 import { useStoreState } from 'easy-peasy'
 
 const Home2 = () => {
-        const NomeStore = useStoreState(state => state.Nome);
+
+        const FormStore = useStoreState(state => state)
+        
+        console.log(FormStore)
 return(
 
     <div>
-                      <h2>Prazer em te conhecer, {NomeStore}</h2>
+                      <h2>Prazer em te conhecer, {FormStore.nome}</h2>
                       <h3>Vamos começar o seu mapeamento?
 
                     Precisamos entender como você está em relação às Soft Skills, vamos te fazer
