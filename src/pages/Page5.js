@@ -22,7 +22,8 @@ const Page5 = () => {
             <input id="question-2-answer-b" type="radio" name="favelang" checked={pag5 === 0.75}  onChange={()=>setPag5(0.75)}/> Concordo parcialmente<br/>
             <input id="question-2-answer-c" type="radio" name="favelang" checked={pag5 === 0.25}  onChange={()=>setPag5(0.25)}/> Discordo parcialmente<br/>
             <input id="question-2-answer-d" type="radio" name="favelang" checked={pag5 === 0}  onChange={()=>setPag5(0)}/> Discordo totalmente<br/>
-            <div id="submit2" class="button"> <div id="submit1" class="button"><Link style={{ textDecoration : 'none', color : 'black'  }} onClick={salvarRadio} to ={'/Page6'} >Próximo</Link></div></div>
+            <div id="home2" class="button"><Link style={{ textDecoration : 'none', color : 'black'  }} onClick={salvarRadio} to ={'/Page6'}>Próximo</Link></div>
+              <div id="home" class="button"><Link style={{ textDecoration : 'none', color : 'black'  }} onClick={salvarRadio} to ={'/Page5'}  >Voltar</Link></div>
             <div class="clearfix"></div>
             </div>
 

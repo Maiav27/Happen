@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState } from 'react' 
 import {Link} from 'react-router-dom'
 import { useStoreState, useStoreActions } from 'easy-peasy'
 import boneco from '../boneco.jpeg'
@@ -18,7 +18,7 @@ const Home = () => {
     return(
 
         <div>
-                         <img src ={boneco} alt="Boneco preto"/>
+                         <img src ={boneco} alt="Boneco"/>
                          <h3> Olá, meu nome é Tony</h3>
                           <h2>Bem-vindo a Happen!</h2>
                           Para iniciar, gostaríamos de saber
@@ -26,6 +26,7 @@ const Home = () => {
                             
                             
                             <div id="home" class="button"><Link style={{ textDecoration : 'none', color : 'black'  }} to ={'/Home2'} onClick={salvar} >Próximo</Link></div>
+                            
                             
    
                    

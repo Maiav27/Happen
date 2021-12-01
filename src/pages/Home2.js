@@ -19,6 +19,8 @@ return(
                         
                         
     <div id="home2" class="button"><Link style={{ textDecoration : 'none', color : 'black'  }} to ={'/Page1'}>Próximo</Link></div>
+    <div id="home" class="button"><Link style={{ textDecoration : 'none', color : 'black'  }} to ={'/'}  >Voltar</Link></div>
+
                         
 
                

@@ -2,7 +2,7 @@
 import './App.css';
 import { BrowserRouter, Routes,  Route} from 'react-router-dom';
 import {Home, Home2, Page1, Page10, Page11, Page12, Page13, Page14, Page15, Page16, Page17, Page18, Page19, Page2, Page20, Page21, Page22, Page23, Page24, Page25, Page26, Page27, Page28, Page29, Page3, Page30, Page31, Page4, Page5, Page6, Page7, Page8, Page9} from './pages'
-
+import Temas from './pages/api/temas'
 
 
 //import Rota from './Rota'
@@ -48,6 +48,7 @@ function App() {
              <Route path='/Page29' element={<Page29/>}/>
              <Route path='/Page30' element={<Page30/>}/>
              <Route path='/Page31' element={<Page31/>}/>
+             <Route path='/api/temas' element={<Temas/>}/>
              
          </Routes>
          </div>
