@@ -21,7 +21,8 @@ const Page30 = () => {
             <input id="question-2-answer-b" type="radio" name="favelang" checked={pag30 === 0.75}  onChange={()=>setPag30(0.75)}/> Concordo parcialmente<br/>
             <input id="question-2-answer-c" type="radio" name="favelang" checked={pag30 === 0.25}  onChange={()=>setPag30(0.25)}/> Discordo parcialmente<br/>
             <input id="question-2-answer-d" type="radio" name="favelang" checked={pag30 === 0}  onChange={()=>setPag30(0)}/> Discordo totalmente<br/>
-            <div id="submit2" class="button"> <div id="submit1" class="button"><Link style={{ textDecoration : 'none', color : 'black'  }} onClick={salvarRadio} to ={'/Page31'} >Próximo</Link></div></div>
+            <div id="home2" class="button"><Link style={{ textDecoration : 'none', color : 'black'  }} onClick={salvarRadio} to ={'/Page31'}>Próximo</Link></div>
+              <div id="home" class="button"><Link style={{ textDecoration : 'none', color : 'black'  }} onClick={salvarRadio} to ={'/Page29'}  >Voltar</Link></div>
             <div class="clearfix"></div>
             </div>
    

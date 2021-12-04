@@ -1,7 +1,7 @@
 
 import './App.css';
 import { BrowserRouter, Routes,  Route} from 'react-router-dom';
-import {Home, Home2, Page1, Page10, Page11, Page12, Page13, Page14, Page15, Page16, Page17, Page18, Page19, Page2, Page20, Page21, Page22, Page23, Page24, Page25, Page26, Page27, Page28, Page29, Page3, Page30, Page31, Page4, Page5, Page6, Page7, Page8, Page9} from './pages'
+import {Home, Home2, Aprender, Tempo, Page1, Page10, Page11, Page12, Page13, Page14, Page15, Page16, Page17, Page18, Page19, Page2, Page20, Page21, Page22, Page23, Page24, Page25, Page26, Page27, Page28, Page29, Page3, Page30, Page31, Page4, Page5, Page6, Page7, Page8, Page9} from './pages'
 import Temas from './pages/api/temas'
 
 
@@ -16,8 +16,10 @@ function App() {
         <div class='questions_box' > 
          <Routes>
              <Route path= "/" element={<Home/>}/>     
-             <Route path= "/Home2" element={<Home2/>}/>     
-             <Route path= "/Page1" element={<Page1/>}/>     
+             <Route path= "/Home2" element={<Home2/>}/>  
+             <Route path= "/Aprender" element={<Aprender/>}/>   
+             <Route path= "/Tempo" element={<Tempo/>}/>     
+             <Route path= "/Page1" element={<Page1/>}/> 
              <Route path= "/Page2" element={<Page2/>}/>   
              <Route path='/Page3' element={<Page3/>}/>  
              <Route path='/Page4' element={<Page4/>}/>

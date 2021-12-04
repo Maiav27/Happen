@@ -18,7 +18,7 @@ return(
                     Esse é um passo que leva menos de 2 minutos. </h3>
                         
                         
-    <div id="home2" class="button"><Link style={{ textDecoration : 'none', color : 'black'  }} to ={'/Page1'}>Próximo</Link></div>
+    <div id="home2" class="button"><Link style={{ textDecoration : 'none', color : 'black'  }} to ={'/Aprender'}>Próximo</Link></div>
     <div id="home" class="button"><Link style={{ textDecoration : 'none', color : 'black'  }} to ={'/'}  >Voltar</Link></div>
 
                         

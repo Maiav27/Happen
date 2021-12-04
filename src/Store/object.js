@@ -8,6 +8,8 @@ export const form ={
     TD : [],
     CM : [],
     CA : [],
+    formas : [],
+    tempo : 0,
 
    
    setForm: action((state,payload)=>{state = payload}),

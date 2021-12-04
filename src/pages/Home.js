@@ -22,7 +22,7 @@ const Home = () => {
                          <h3> Olá, meu nome é Tony</h3>
                           <h2>Bem-vindo a Happen!</h2>
                           Para iniciar, gostaríamos de saber
-                          o seu nome:<input type="text" value={nome} onChange={(event) => setNome(event.target.value)}/>
+                          o seu nome:<input type="text" class='nome' value={nome} onChange={(event)  => setNome(event.target.value)}/>
                             
                             
                             <div id="home" class="button"><Link style={{ textDecoration : 'none', color : 'black'  }} to ={'/Home2'} onClick={salvar} >Próximo</Link></div>

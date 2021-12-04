@@ -33,7 +33,7 @@ return(
                         <input id="question-1-answer-c" type="radio" name="favelang" checked={pag1 === 0.25} onChange={()=>setPag1(0.25)}/> Discordo parcialmente<br/>
                         <input id="question-1-answer-d" type="radio" name="favelang" checked={pag1 === 0} onChange={()=>setPag1(0)}/> Discordo totalmente<br/>
                         <div id="home2" class="button"><Link style={{ textDecoration : 'none', color : 'black'  }} onClick={salvarRadio} to ={'/Page2'}>Próximo</Link></div>
-                        <div id="home" class="button"><Link style={{ textDecoration : 'none', color : 'black'  }} onClick={salvarRadio} to ={'/Home2'}  >Voltar</Link></div>
+                        <div id="home" class="button"><Link style={{ textDecoration : 'none', color : 'black'  }} onClick={salvarRadio} to ={'/Tempo'}  >Voltar</Link></div>
 
                 <div class="clearfix"></div>
     </div>

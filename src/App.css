@@ -140,3 +140,7 @@ h3 {
   text-align: left;
   max-width: 960px;
 }
+
+.nome : focus{
+  color : blue;
+}
