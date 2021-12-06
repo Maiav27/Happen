@@ -7,6 +7,7 @@ import {Link} from 'react-router-dom'
 //import  page2 from './page2'
 import {useStoreActions, useStoreState } from 'easy-peasy';
 import React, {useState} from 'react'
+import axios from 'axios';
 
 const Page2 = () => {
 
@@ -16,10 +17,19 @@ const Page2 = () => {
  const SetFormStore = useStoreActions(state => state.setForm);
  const [pag2, setPag2] = useState(FormStore.LID[1] ? FormStore.LID[0] : '')
   console.log(FormStore)
+
  function salvarRadio(){
    FormStore.LID[1] = pag2
- 
    SetFormStore(FormStore);
+
+   axios.post('http://localhost:8080/respostas',
+   {
+      pontuacao : pag2,
+   }
+   ).then(salvaAprendiz => 
+       console.log(salvaAprendiz)
+   );
+
  } 
 
 return(

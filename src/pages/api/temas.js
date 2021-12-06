@@ -12,7 +12,6 @@ const  Temas = () => {
          TD : FormStore.TD,
          CM : FormStore.CM,
          CA : FormStore.CA,
-     
         })
 }
     return(

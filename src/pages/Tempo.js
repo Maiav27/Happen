@@ -23,7 +23,7 @@ const Tempo = () => {
               <input type = 'radio'  name='tempo' value={10} checked={tempo === 10} onChange={() => setTempo(10)}/> 10 minutos <br/>
               <input type = 'radio' name='tempo' value={15} checked={tempo === 15} onChange={() => setTempo(15)}/> 15 minutos <br/>
             <div id="home2" class="button"><Link style={{ textDecoration : 'none', color : 'black'  }} onClick={salvar}  to ={'/Page1'}>Próximo</Link></div>
-            <div id="home" class="button"><Link style={{ textDecoration : 'none', color : 'black'  }} onClick={salvar}  to ={'/Home2'}  >Voltar</Link></div>
+            <div id="home" class="button"><Link style={{ textDecoration : 'none', color : 'black'  }} onClick={salvar}  to ={'/Aprender'}  >Voltar</Link></div>
             <div class="clearfix"></div>
               
 

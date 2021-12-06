@@ -2,6 +2,7 @@
 import {Link} from 'react-router-dom'
 import {useStoreActions, useStoreState } from 'easy-peasy';
 import React, {useState} from 'react'
+import axios from 'axios';
 
 const Page20 = () => {
    const FormStore = useStoreState(state => state);
@@ -12,6 +13,15 @@ const Page20 = () => {
    function salvarRadio(){
      FormStore.TD[4]  = pag20;
      SetFormStore(FormStore);
+
+     axios.post('http://localhost:8080/respostas',
+     {
+        pontuacao : pag20,
+     }
+     ).then(salvaAprendiz => 
+         console.log(salvaAprendiz)
+     );
+
    } 
  return(
     <div id="question-20">

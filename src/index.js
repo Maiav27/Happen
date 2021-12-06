@@ -7,6 +7,8 @@ import reportWebVitals from './reportWebVitals';
 import {StoreProvider} from 'easy-peasy';
 import {store} from './Store/store'
 
+
+
 ReactDOM.render(
   <React.StrictMode>
     <StoreProvider store={store}>
