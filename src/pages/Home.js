@@ -2,7 +2,7 @@ import { useState } from 'react'
 import {Link} from 'react-router-dom'
 import { useStoreState, useStoreActions } from 'easy-peasy'
 import boneco from '../boneco.jpeg'
-import axios from 'axios';
+
 
 const Home = () => {
 
@@ -14,7 +14,6 @@ const Home = () => {
     const salvar = () => {
         FormStore.nome = nome
         setFormStore(FormStore);
-
     }
 
     console.log(nome)
