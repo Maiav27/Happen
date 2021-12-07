@@ -14,7 +14,7 @@ const Page24 = () => {
     } 
  return(
     <div id="question-24">
-    <h2>Questão 24</h2>
+    <h2>Comunicação</h2>
     <h3>Compreendo a Matriz da Janela de Johari e como ela pode ser utilizada na comunicação do dia dia </h3>
     <input id="question-2-answer-a" type="radio" name="favelang" checked={pag24 === 1}  onChange={()=>setPag24(1)}/> Concordo totalmente<br/>
             <input id="question-2-answer-b" type="radio" name="favelang" checked={pag24 === 0.75}  onChange={()=>setPag24(0.75)}/> Concordo parcialmente<br/>

@@ -16,7 +16,7 @@ const Page19 = () => {
    } 
  return(
     <div id="question-19">
-            <h2>Questão 19</h2>
+            <h2>Transformação Digital</h2>
             <h3>Entendo a diferença entre automações e automatizações e como elas podem ser utilizadas
                para criar mais eficiência nos processos do dia a dia </h3>
                <input id="question-2-answer-a" type="radio" name="favelang" checked={pag19 === 1}  onChange={()=>setPag19(1)}/> Concordo totalmente<br/>

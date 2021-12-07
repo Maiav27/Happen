@@ -15,7 +15,7 @@ const Page5 = () => {
     } 
  return(
     <div id="question-5">
-                <h2>Questão 5</h2>
+                  <h2>Liderança</h2>
                 <h3>Sempre que recebo um feedback construtivo procuro explicar
                 para a pessoa o que me levou a cometer aquela ação. </h3>
                 <input id="question-2-answer-a" type="radio" name="favelang" checked={pag5 === 1}  onChange={()=>setPag5(1)}/> Concordo totalmente<br/>

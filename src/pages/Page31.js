@@ -25,7 +25,7 @@ const Page31 = () =>{
        
         <div id="question-31"> 
         <h2>Obrigado por responder a pesquisa!</h2>
-        <h3>Seu score de segurança é: </h3>
+        <h3>Seu score  é: </h3>
        CA : {prioridade(MediaCA, 'CA')}
        LID : {prioridade(MediaLID, 'LID')}
        CM : {prioridade(MediaCM, 'CM')}

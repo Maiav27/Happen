@@ -14,7 +14,7 @@ const Page7 = () => {
    } 
  return(
     <div id="question-7">
-    <h2>Questão 7</h2>
+    <h2>Produtividade</h2>
     <h3>Sempre que alguém me pede uma ajuda e não estou disponível,
        consigo dizer não para essa pessoa. </h3>
        <input id="question-2-answer-a" type="radio" name="favelang" checked={Pag7 === 1}  onChange={()=>setPag7(1)}/> Concordo totalmente<br/>

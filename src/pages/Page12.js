@@ -15,7 +15,7 @@ const Page12 = () => {
   } 
  return(
     <div id="question-12">
-            <h2>Questão 12</h2>
+            <h2>Inteligência Emocional</h2>
             <h3>Entendo que o autoconhecimento é a base para o desenvolvimento da 
               inteligência emocional. </h3>
               <input id="question-2-answer-a" type="radio" name="favelang" checked={pag12 === 1}  onChange={()=>setPag12(1)}/> Concordo totalmente<br/>

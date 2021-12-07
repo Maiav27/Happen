@@ -14,7 +14,7 @@ const Page28 = () => {
     } 
     return(
         <div id="question-28">
-            <h2>Questão 28</h2>
+            <h2>Criatividade</h2>
             <h3>Entendo a influência que estruturas tradicionais como escolas exercem para a nossa criatividade e poder de criação </h3>
             <input id="question-2-answer-a" type="radio" name="favelang" checked={pag28 === 1}  onChange={()=>setPag28(1)}/> Concordo totalmente<br/>
             <input id="question-2-answer-b" type="radio" name="favelang" checked={pag28 === 0.75}  onChange={()=>setPag28(0.75)}/> Concordo parcialmente<br/>

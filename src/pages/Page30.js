@@ -15,7 +15,7 @@ const Page30 = () => {
     console.log(FormStore)
     return(
         <div id="question-30">
-            <h2>Questão 30</h2>
+            <h2>Criatividade</h2>
             <h3>Entendo os conceitos de input, output e insight, para criatividade </h3>
             <input id="question-2-answer-a" type="radio" name="favelang" checked={pag30 === 1}  onChange={()=>setPag30(1)}/> Concordo totalmente<br/>
             <input id="question-2-answer-b" type="radio" name="favelang" checked={pag30 === 0.75}  onChange={()=>setPag30(0.75)}/> Concordo parcialmente<br/>

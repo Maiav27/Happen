@@ -16,7 +16,7 @@ const Page15 = () => {
     } 
  return(
     <div id="question-15">
-            <h2>Questão 15</h2>
+            <h2>Inteligência Emocional</h2>
             <h3>Conheço as 5 linguagens da conexão e como elas são usadas para criar laços entre equipes.  </h3>
             <input id="question-2-answer-a" type="radio" name="favelang" checked={pag15 === 1}  onChange={()=>setPag15(1)}/> Concordo totalmente<br/>
             <input id="question-2-answer-b" type="radio" name="favelang" checked={pag15 === 0.75}  onChange={()=>setPag15(0.75)}/> Concordo parcialmente<br/>

@@ -15,7 +15,7 @@ const Page11 = () => {
     } 
  return(
     <div id="question-11">
-    <h2>Questão 11</h2>
+    <h2>Inteligência Emocional</h2>
     <h3>Conheço o conceito de mundo MUVUCA e como ele é aplicado as empresas. </h3>
     <input id="question-2-answer-a" type="radio" name="favelang" checked={pag11 === 1}  onChange={()=>setPag11(1)}/> Concordo totalmente<br/>
             <input id="question-2-answer-b" type="radio" name="favelang" checked={pag11 === 0.75}  onChange={()=>setPag11(0.75)}/> Concordo parcialmente<br/>

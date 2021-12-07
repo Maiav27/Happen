@@ -15,7 +15,7 @@ const Page17 = () => {
     } 
  return(
     <div id="question-17">
-    <h2>Questão 17</h2>
+    <h2>Transformação Digital</h2>
     <h3>Entendo os conceitos de Inovação Aberta e quais são os principais players que devo me conectar.   </h3>
     <input id="question-2-answer-a" type="radio" name="favelang" checked={pag17 === 1}  onChange={()=>setPag17(1)}/> Concordo totalmente<br/>
             <input id="question-2-answer-b" type="radio" name="favelang" checked={pag17 === 0.75}  onChange={()=>setPag17(0.75)}/> Concordo parcialmente<br/>

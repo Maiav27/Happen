@@ -17,7 +17,7 @@ const Page4 = () => {
     console.log(FormStore)
  return(
     <div id="question-4">
-    <h2>Questão 4</h2>
+    <h2>Liderança</h2>
     <h3>A equipe precisa se adaptar ao estilo de liderança do líder</h3>
     <input id="question-2-answer-a" type="radio" name="favelang" checked={pag4 === 1}  onChange={()=>setPag4(1)}/> Concordo totalmente<br/>
     <input id="question-2-answer-b" type="radio" name="favelang" checked={pag4 === 0.75}  onChange={()=>setPag4(0.75)}/> Concordo parcialmente<br/>

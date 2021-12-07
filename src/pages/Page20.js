@@ -15,7 +15,7 @@ const Page20 = () => {
    } 
  return(
     <div id="question-20">
-            <h2>Questão 20</h2>
+            <h2>Transformação Digital</h2>
             <h3>Entendo que quando falamos de negócios inovadores, estamos nos referindo a gestões
                inovadoras, e não necessariamente a produtos inovadores (como apps). </h3>
                <input id="question-2-answer-a" type="radio" name="favelang" checked={pag20 === 1}  onChange={()=>setPag20(1)}/> Concordo totalmente<br/>

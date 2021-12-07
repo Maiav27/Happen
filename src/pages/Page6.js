@@ -15,7 +15,7 @@ const Page6 = () => {
    } 
  return(
     <div id="question-6">
-            <h2>Questão 6</h2>
+            <h2>Produtividade</h2>
             <h3>Eu separo um tempo para planejar minha semana, definindo
                metas, objetivos e prazos para serem cumpridos. </h3>
                <input id="question-2-answer-a" type="radio" name="favelang" checked={pag6 === 1}  onChange={()=>setPag6(1)}/> Concordo totalmente<br/>

@@ -14,7 +14,7 @@ const Page14 = () => {
     } 
  return(
     <div id="question-14">
-            <h2>Questão 14</h2>
+            <h2>Inteligência Emocional</h2>
             <h3>Sou familiarizado e praticante de técnicas como meditação e mindfulness. </h3>
             <input id="question-2-answer-a" type="radio" name="favelang" checked={pag14 === 1}  onChange={()=>setPag14(1)}/> Concordo totalmente<br/>
             <input id="question-2-answer-b" type="radio" name="favelang" checked={pag14 === 0.75}  onChange={()=>setPag14(0.75)}/> Concordo parcialmente<br/>

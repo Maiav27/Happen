@@ -15,7 +15,7 @@ const Page29 = () => {
     } 
     return(
         <div id="question-29">
-            <h2>Questão 29</h2>
+            <h2>Criatividade</h2>
             <h3>Acredito que, no meu trabalho, não preciso usar a criatividade. Isso porque faço quase a mesma coisa todos os dias </h3>
             <input id="question-2-answer-a" type="radio" name="favelang" checked={pag29 === 1}  onChange={()=>setPag29(1)}/> Concordo totalmente<br/>
             <input id="question-2-answer-b" type="radio" name="favelang" checked={pag29 === 0.75}  onChange={()=>setPag29(0.75)}/> Concordo parcialmente<br/>

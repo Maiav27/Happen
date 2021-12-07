@@ -14,7 +14,7 @@ const Page13 = () => {
   } 
  return(
     <div id="question-13">
-            <h2>Questão 13</h2>
+           <h2>Inteligência Emocional</h2>
             <h3>Entendo quais são os 9 tipos de sabotadores e como eles podem 
               atrapalhar tarefas simples do dia a dia. </h3>
               <input id="question-2-answer-a" type="radio" name="favelang" checked={pag13 === 1}  onChange={()=>setPag13(1)}/> Concordo totalmente<br/>

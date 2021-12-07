@@ -15,7 +15,7 @@ const Page18 = () => {
    } 
  return(
     <div id="question-18">
-            <h2>Questão 18</h2>
+            <h2>Transformação Digital</h2>
             <h3>Conheço os 6 pilares principais da transformação digital e como eles podem ser aplicados
                para negócios de diversos portes.   </h3>
                <input id="question-2-answer-a" type="radio" name="favelang" checked={pag18 === 1}  onChange={()=>setPag18(1)}/> Concordo totalmente<br/>

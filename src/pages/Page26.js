@@ -15,7 +15,7 @@ const Page26 = () => {
     } 
  return(
     <div id="question-26">
-            <h2>Questão 26</h2>
+            <h2>Criatividade</h2>
             <h3>Acredito que existam vários tipos de bloqueios a nossa criatividade no dia a dia </h3>
             <input id="question-2-answer-a" type="radio" name="favelang" checked={pag26 === 1}  onChange={()=>setPag26(1)}/> Concordo totalmente<br/>
             <input id="question-2-answer-b" type="radio" name="favelang" checked={pag26 === 0.75}  onChange={()=>setPag26(0.75)}/> Concordo parcialmente<br/>

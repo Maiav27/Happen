@@ -14,7 +14,7 @@ const Page21 = () => {
     } 
  return(
     <div id="question-21">
-            <h2>Questão 21</h2>
+            <h2>Comunicação</h2>
             <h3>Entendo que a comunicação interna é um dos pontos mais delicados em organizações. </h3>
             <input id="question-2-answer-a" type="radio" name="favelang" checked={pag21 === 1}  onChange={()=>setPag21(1)}/> Concordo totalmente<br/>
             <input id="question-2-answer-b" type="radio" name="favelang" checked={pag21 === 0.75}  onChange={()=>setPag21(0.75)}/> Concordo parcialmente<br/>

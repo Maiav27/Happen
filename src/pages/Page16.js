@@ -14,7 +14,7 @@ const Page16 = () => {
     } 
  return(
     <div id="question-15">
-    <h2>Questão 16</h2>
+    <h2>Transformação Digital</h2>
     <h3>Entendo de forma básica o que é Inteligência Artificial e como ela está presente no nosso dia a dia.  </h3>
     <input id="question-2-answer-a" type="radio" name="favelang" checked={pag16 === 1}  onChange={()=>setPag16(1)}/> Concordo totalmente<br/>
             <input id="question-2-answer-b" type="radio" name="favelang" checked={pag16 === 0.75}  onChange={()=>setPag16(0.75)}/> Concordo parcialmente<br/>

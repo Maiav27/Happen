@@ -18,7 +18,7 @@ const Page3 = () => {
     console.log(FormStore)
  return(
             <div id="question-3">	
-            <h2>Questão 3</h2>
+            <h2>Liderança</h2>
             <h3>Mesmo com a evolução dos ambientes e formas de trabalho, a motivação
         dos colaboradores continua sendo o pagamento ao final do mês</h3>
              <input id="question-2-answer-a" type="radio" name="favelang" checked={pag3 === 1}  onChange={()=>setPag3(1)}/> Concordo totalmente<br/>

@@ -14,7 +14,7 @@ const Page23 = () => {
     } 
  return(
     <div id="question-23">
-            <h2>Questão 23</h2>
+            <h2>Comunicação</h2>
             <h3>Entendo plenamente o conceito dos quatro passos da comunicação não violenta </h3>
             <input id="question-2-answer-a" type="radio" name="favelang" checked={pag23 === 1}  onChange={()=>setPag23(1)}/> Concordo totalmente<br/>
             <input id="question-2-answer-b" type="radio" name="favelang" checked={pag23 === 0.75}  onChange={()=>setPag23(0.75)}/> Concordo parcialmente<br/>

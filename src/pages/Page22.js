@@ -15,7 +15,7 @@ const Page22 = () => {
     } 
  return(
     <div id="question-22">
-            <h2>Questão 22</h2>
+            <h2>Comunicação</h2>
             <h3>Para nos comunicarmos da melhor forma, é necessário entender quem é o receptor daquela mensagem. </h3>
             <input id="question-2-answer-a" type="radio" name="favelang" checked={pag22 === 1}  onChange={()=>setPag22(1)}/> Concordo totalmente<br/>
             <input id="question-2-answer-b" type="radio" name="favelang" checked={pag22 === 0.75}  onChange={()=>setPag22(0.75)}/> Concordo parcialmente<br/>

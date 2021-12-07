@@ -15,7 +15,7 @@ const Page25 = () => {
     } 
  return(
     <div id="question-25">
-            <h2>Questão 25</h2>
+            <h2>Comunicação</h2>
             <h3>Entendo que, para diferentes níveis hierárquicos existem também diferentes formas de comunicação </h3>
             <input id="question-2-answer-a" type="radio" name="favelang" checked={pag25 === 1}  onChange={()=>setPag25(1)}/> Concordo totalmente<br/>
             <input id="question-2-answer-b" type="radio" name="favelang" checked={pag25 === 0.75}  onChange={()=>setPag25(0.75)}/> Concordo parcialmente<br/>
