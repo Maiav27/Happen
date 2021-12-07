@@ -1,6 +1,9 @@
 import { useStoreState } from "easy-peasy"
 
+
+
 const Page31 = () =>{
+
     const FormStore = useStoreState(state => state)
     const MediaLID = FormStore.LID.reduce((valorAnterior, valorAtual) => valorAnterior + valorAtual) / 5
     const MediaPD = FormStore.PD.reduce((valorAnterior, valorAtual) => valorAnterior + valorAtual) / 5
@@ -8,6 +11,8 @@ const Page31 = () =>{
     const MediaIE = FormStore.IE.reduce((valorAnterior, valorAtual) => valorAnterior + valorAtual) / 5
     const MediaCA = FormStore.CA.reduce((valorAnterior, valorAtual) => valorAnterior + valorAtual) / 5
     const MediaCM = FormStore.CA.reduce((valorAnterior, valorAtual) => valorAnterior + valorAtual) / 5
+
+        
 
     const prioridade = (media, tema) =>{
         if (media < 0.70) {

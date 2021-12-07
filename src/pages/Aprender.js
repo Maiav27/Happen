@@ -3,6 +3,8 @@ import { useStoreActions, useStoreState } from "easy-peasy"
 import { useState } from "react"
 import { Link } from "react-router-dom"
 
+
+
 const Aprender = () => {
     const formStore = useStoreState(state => state)
     const setFormStore = useStoreActions(state => state.setForm)
